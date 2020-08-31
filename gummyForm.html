@@ -1,0 +1,47 @@
+<!DOCTYPE html/>
+<html lang="pt">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Gummy Form</title>
+		<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/estilo.css">
+		<link rel="stylesheet" href="css/gummyform_style.css">
+		
+	</head>
+	<body class="gfbg">
+    	<main class="gfmain">
+			<header>
+	    		<h1 id="title">Gummy Formulário</h1>
+				<p id="description">Envie-nos mais informações sobre o Gummybear</p>
+			</header>
+			<form id="gummy-form" method="POST" netlify>
+				<label for="name">Nome<br/>
+				<input type="text" name="nome" id="name" required/></label><br/>
+				<label for="correio">Email<br/>
+				<input type="email" name="correio" id="correio"/><br/></label>
+				<label for="idade">Idade<br/>
+				<input type="number" name="idade" id="idade"/></label>
+				<p>Onde conheceu o Gummybear?</p>
+				<label for="radio">No rádio
+				<input type="checkbox" name="radio" id="radio" value="radio"/></label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<label for="tv">Na televisão
+				<input type="checkbox" name="tv" id="tv" value="tv"/></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<label for="intenet">internet
+				<input type="checkbox" name="net" id="internet" value="net"/></label>
+				<p>Onde Gummybear disse esta frase?</p>
+				<label for="frase_musica">Frase dita em musica
+				<input type="radio" name="frase" id="frase_musica" value="musica" checked/></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<label for="frase_desenho">Frase dita em desenho
+				<input type="radio" name="frase" id="frase_desenho" value="desenho"/></label><br/><br/>
+				<label for="frase_real">Frase dita pelo Gummy<br/>
+				<textarea name="frase_real" id="frase_real" rows="10" cols="50"></textarea></label><br/>
+				<button type="submit" id="submit">Enviar</button>
+			</form>
+			<footer id="foot">
+				Codado por Rodrigo Régio de Araújo: como exercicio para o site <a href="https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-survey-form">Free Code Camp</a>
+			</footer>
+    	</main>
+	</body>
+</html>

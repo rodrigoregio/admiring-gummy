@@ -1,0 +1,47 @@
+/*Gummy Form style*/
+.gfbg{
+	background-image: url("https://stickershop.line-scdn.net/sticonshop/v1/product/5cc67274100cc31d5c035516/iPhone/main.png");
+}
+
+@media(max-width:1000px){
+  .gfmain{
+    margin: 0 auto;
+    background-color:#ffbf50;
+    /*text-align: center;*/
+    width: 50%;
+  }
+  #name{
+    max-width: 80%;
+  }
+  #correio{
+    max-width: 80%;
+  }
+  #idade{
+    max-width: 80%;
+  }
+  #frase_real{
+    max-width: 80%;
+  }
+}
+@media(min-width:1000px){
+  .gfmain{
+    margin: 0 auto;
+    background-color:#ffbf50;
+    /*text-align: center;*/
+    width: 80%;
+  }
+}
+#title{
+  font-size:40px;
+  color: #338833;
+}
+#description{
+  color: #338833;
+}
+.gfradio{
+	text-align: right;
+	width: 30%;
+}
+form{
+	padding: 20px;
+}

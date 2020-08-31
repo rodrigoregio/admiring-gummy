@@ -1,0 +1,41 @@
+/*
+	Gummy index
+ */
+body{
+  background-color: #ffbf50;
+  text-align: center;
+}
+.mainChar{
+  width:300px;
+}
+section{
+	padding: 15px;
+}
+.title{
+  color: #338833;
+  text-align: center;
+  padding: 15px;
+}
+h1{
+	font-size:50px;
+}
+h2{
+	font-size:40px;
+}
+h3{
+	font-size:30px;
+}
+li{
+	font-size:20px;
+}
+.disc{
+	list-style-type: circle;
+}
+footer{
+	background-color: #000000;
+	color: #ffffff;
+	padding: 10px;
+}
+/*
+	Gummy Form
+ */
