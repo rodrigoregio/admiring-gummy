@@ -109,3 +109,25 @@ form > #submit:hover {
 #main {
     align-content: center;
 }
+#home{
+    padding: 15px;
+    margin: repeat(4,10px);
+    background-color: #338833;
+}
+#rodape{
+    margin-top: 10px;
+}
+@media(max-width: 600px){
+    #main{
+        align-content: left;
+        min-width: 600px;
+    }
+    .produto{
+        width: 500px;
+    }
+}
+@media(max-width: 1200px){
+    .produto{
+        width: 500px;
+    }
+}
