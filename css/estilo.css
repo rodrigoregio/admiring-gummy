@@ -32,6 +32,7 @@ li{
 	list-style-type: circle;
 }
 footer{
+	display: block;
 	background-color: #000000;
 	color: #ffffff;
 	padding: 10px;

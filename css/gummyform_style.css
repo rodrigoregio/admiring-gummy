@@ -1,14 +1,15 @@
 /*Gummy Form style*/
 .gfbg{
-	background-image: url("https://stickershop.line-scdn.net/sticonshop/v1/product/5cc67274100cc31d5c035516/iPhone/main.png");
+  background-image: url("https://stickershop.line-scdn.net/sticonshop/v1/product/5cc67274100cc31d5c035516/iPhone/main.png");
+  text-align: left;
+  min-width: 400px;
 }
-
 @media(max-width:1000px){
   .gfmain{
     margin: 0 auto;
     background-color:#ffbf50;
-    /*text-align: center;*/
-    width: 50%;
+    /*text-align: center;
+    width: 50%;*/
   }
   #name{
     max-width: 80%;
@@ -44,4 +45,16 @@
 }
 form{
 	padding: 20px;
+}
+#submit{
+  padding: 10px;
+  margin: 10px;
+  background-color: #338833;
+}
+p{
+  padding: 10px;
+}
+#back{
+  padding: 10px;
+  background-color: #338833;
 }
