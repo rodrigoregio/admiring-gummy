@@ -154,3 +154,19 @@ li{
     transition: transform 0.6s ease-out;
     color: var(--main-gray);
 }
+.rodape{
+    background-color: black;
+    color: var(--main-white);
+    font-size: 2rem;
+    text-align: center;
+    padding: 20px;
+}
+.rodalink{
+    color: var(--main-white);
+}
+.rodalink:visited{
+    color: var(--main-white);
+}
+.rodape > p{
+    margin: 0;
+}
