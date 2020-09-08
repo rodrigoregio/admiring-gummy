@@ -6,10 +6,10 @@
   min-width: 400px;
 }
 .gfmain{
-  margin: 0 auto;
+  margin: 20px;
   background-color: #ffbf50;
   border: 2px solid #335533;
-  border-radius: 2px;
+  border-radius: 10px;
   /*text-align: center;*/
   width: 40%;
 }
