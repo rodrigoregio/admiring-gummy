@@ -13,7 +13,7 @@
   /*text-align: center;*/
   width: 40%;
 }
-@media(max-width:550px){
+@media(min-width:550px){
   .gfmain{
     margin: 0 auto;
     background-color:#ffbf50;
@@ -33,7 +33,7 @@
     max-width: 80%;
   }
 }
-@media(min-width:550px){
+@media(max-width:550px){
   .gfmain{
     margin: 0 auto;
     background-color:#ffbf50;
