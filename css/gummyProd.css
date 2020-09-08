@@ -49,8 +49,8 @@ li > a:hover {
     vertical-align: center;
 }
 .desc {
-    padding: 10px;
-    margin: 10px;
+    /*padding: 10px;
+    margin: 10px;*/
     font-size: 25px;
 }
 .desc > h2 {
