@@ -37,11 +37,22 @@ li > a:hover {
 }
 /* Coloque grid aqui no meio */
 .grid {
-    display: flex;
+    display: inline-flex;
+    align-self: center;
+    /*border-top: 2px solid #335533;
+    border-left: 2px solid #335533;
+    border-right: 2px solid #335533;*/
+    max-width: 80%;
+}
+.grid > .icon{
+    width: 100px;
+    vertical-align: center;
 }
 .desc {
     padding: 10px;
     margin: 10px;
+    font-weight: bolder;
+    font-size: 25px;
 }
 .desc > h2 {
     text-align: left;
