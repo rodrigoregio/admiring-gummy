@@ -81,5 +81,5 @@ p{
   background-color: #338833;
 }
 #name, #correio, #idade, #frase_real{
-  border-radius: 5px;
+  border-radius: 10px;
 }
