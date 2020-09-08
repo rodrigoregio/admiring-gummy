@@ -5,7 +5,7 @@
   text-align: left;
   min-width: 400px;
 }
-@media(max-width:1000px){
+@media(max-width:500px){
   .gfmain{
     margin: 0 auto;
     background-color:#ffbf50;
@@ -25,7 +25,7 @@
     max-width: 80%;
   }
 }
-@media(min-width:1000px){
+@media(min-width:500px){
   .gfmain{
     margin: 0 auto;
     background-color:#ffbf50;
