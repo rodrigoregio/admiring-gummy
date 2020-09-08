@@ -5,6 +5,9 @@
   text-align: left;
   min-width: 400px;
 }
+.gfmain{
+  width: 40%;
+}
 @media(max-width:550px){
   .gfmain{
     margin: 0 auto;
@@ -25,6 +28,7 @@
     max-width: 80%;
   }
 }
+/*
 @media(min-width:550px){
   .gfmain{
     margin: 0 auto;
@@ -34,7 +38,7 @@
     /*text-align: center;*/
     width: 40%;
   }
-}
+}*/
 #title{
   font-size:40px;
   color: #338833;
