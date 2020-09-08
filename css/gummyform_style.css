@@ -5,7 +5,7 @@
   text-align: left;
   min-width: 400px;
 }
-@media(max-width:500px){
+@media(max-width:550px){
   .gfmain{
     margin: 0 auto;
     background-color:#ffbf50;
@@ -25,12 +25,14 @@
     max-width: 80%;
   }
 }
-@media(min-width:500px){
+@media(min-width:550px){
   .gfmain{
     margin: 0 auto;
     background-color:#ffbf50;
+    border: 2px solid #335533;
+    border-radius: 2px;
     /*text-align: center;*/
-    width: 80%;
+    width: 40%;
   }
 }
 #title{
