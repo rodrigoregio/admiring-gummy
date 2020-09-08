@@ -80,3 +80,6 @@ p{
   padding: 10px;
   background-color: #338833;
 }
+#name, #correio, #idade, #frase_real{
+  border-radius: 5px;
+}
