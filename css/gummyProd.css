@@ -35,27 +35,30 @@ header {
 li > a:hover {
     background-color: #339933;
 }
-/* Coloque grid aqui no meio */
+/* Acredito que a solução esteja entre aqui */
+.gridcontainer{
+    display: inline-flexbox;
+    border: solid 1px #338833;
+    border-radius: 10px;
+    max-width: 80%;
+}
+/* E Aqui*/
 .grid {
     display: grid;
+    grid-template-rows: auto;
     align-self: center;
-    /*border-top: 2px solid #335533;
-    border-left: 2px solid #335533;
-    border-right: 2px solid #335533;*/
-    max-width: 80%;
+    max-width: auto;
+    border: solid 1px #338833;
+    border-radius: 10px;
 }
 .prop > .prodimage{
     display: initial;
     margin: 10px;
 }
-.grid > .icon{
-    width: 100px;
-    vertical-align: center;
-}
+
 .desc {
-    /*padding: 10px;
-    margin: 10px;*/
     font-size: 25px;
+    text-align: left;
 }
 .desc > h2 {
     text-align: left;
@@ -69,7 +72,7 @@ li > a:hover {
     /*justify-content: center;*/
 }
 .produto {
-    /*display: ;*/
+    display: inline-block;
     flex-direction: column;
     align-items: center;
     text-align: center;
